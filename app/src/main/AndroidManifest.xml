@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OnTapSQLite3">
         <activity
+            android:name=".MainQuanLy"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity

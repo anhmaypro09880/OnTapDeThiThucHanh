@@ -24,7 +24,7 @@ import java.util.Date;
 public class MainActivity extends AppCompatActivity {
     TextView txtTime;
     EditText edtEmail,edtPass;
-    Button btnOk;
+    Button btnOk,btnThem;
     public static FirebaseAuth auth = FirebaseAuth.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,13 +43,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Toast.makeText(MainActivity.this,"ThanhCong",Toast.LENGTH_LONG).show();
-                        Intent i = new Intent(MainActivity.this,Register.class);
+                        Intent i = new Intent(MainActivity.this,MainQuanLy.class);
                         startActivity(i);
                     }
                 });
                 txtTime.setText(date);
             }
         });
+
     }
 
     private void khaiBao() {
@@ -57,5 +58,8 @@ public class MainActivity extends AppCompatActivity {
         edtPass = findViewById(R.id.edtPass);
         txtTime = findViewById(R.id.txtTime);
         btnOk = findViewById(R.id.btnOk);
+        btnThem = findViewById(R.id.btnThem);
     }
+
+
 }
