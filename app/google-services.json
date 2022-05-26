@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9906041271",
+    "project_id": "ontapdethith",
+    "storage_bucket": "ontapdethith.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9906041271:android:9a03ee9ef9e7ad94e0f832",
+        "android_client_info": {
+          "package_name": "com.example.ontapsqlite3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9906041271-kefao5g1rvhsg5khm7n5ri9qn89e4huo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMfQ9XSr4G1Tfz4fLYbh-BwlqDdO_4fZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9906041271-kefao5g1rvhsg5khm7n5ri9qn89e4huo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
